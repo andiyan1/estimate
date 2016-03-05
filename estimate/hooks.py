@@ -11,16 +11,21 @@ app_email = "tara.antonius@gmail.com"
 app_version = "0.0.1"
 app_license = "MIT"
 
+fixtures = ['Custom Field',
+'Property Setter',
+'Custom Script',
+'Print Format']
+
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/estimate/css/estimate.css"
-# app_include_js = "/assets/estimate/js/estimate.js"
+app_include_css = "/assets/estimate/css/estimate.css"
+app_include_js = "/assets/estimate/js/estimate.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/estimate/css/estimate.css"
-# web_include_js = "/assets/estimate/js/estimate.js"
+web_include_css = "/assets/estimate/css/estimate.css"
+web_include_js = "/assets/estimate/js/estimate.js"
 
 # Home Pages
 # ----------
@@ -110,4 +115,3 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "estimate.event.get_events"
 # }
-
